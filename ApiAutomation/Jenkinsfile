@@ -20,7 +20,7 @@ pipeline {
                
                 always {
                    echo "Report"
-                  archiveArtifacts artifacts: 'Reports/index.html', followSymlinks: false
+                  archiveArtifacts artifacts: 'ApiAutomation/Reports/index.html', followSymlinks: false
                 }
             }
         }
