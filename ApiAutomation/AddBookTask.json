@@ -1,0 +1,137 @@
+{
+  "taskName": "automationTask_new34",
+  "help": null,
+  "categoryId": "2",
+  "status": true,
+  "taskType": 1,
+  "isMultiday": false,
+  "groups": [
+    {
+      "id": 0,
+      "groupName": "Default",
+      "equipmentTypeId": null,
+      "equipmentType": null,
+      "details": [
+        {
+          "id": 0,
+          "sequence": 1,
+          "questionId": 175,
+          "readingTypeId": 101,
+          "inputTypeId": 2,
+          "target": "30",
+          "minRange": "15",
+          "maxRange": "40",
+          "generateCorrAction": true,
+          "status": true,
+          "master": false,
+          "startDate": null,
+          "endDate": null,
+          "everyNTimes": null,
+          "weekDayIds": [],
+          "isAdjusted": true,
+          "canUseEveryNTimes": true,
+          "multipleReading": "3",
+          "groupId": 0,
+          "groupName": "Default",
+          "scheduleId": 0,
+          "instructions": "",
+          "itemSelections": [],
+          "questionSettings": {
+            "retakeReading": true,
+            "raisedTicket": false,
+            "items": null,
+            "instructionHtml": null,
+            "instructionMediaId": null,
+            "contentTypeId": 1,
+            "categoryId": null,
+            "priority": null,
+            "subcategoryId": null
+          },
+          "contentTypeId": 0
+        }
+      ],
+      "notifyExpireSoon": false,
+      "notifyOpen": false,
+      "hasSchedule": false,
+      "schedule": {
+        "id": 0,
+        "scheduleName": null,
+        "scheduleTypeId": 301,
+        "durationDays": 1,
+        "durationHours": null,
+        "intervalHours": null,
+        "intervalDays": null,
+        "weekOfTheMonth": null,
+        "recurring": false,
+        "weekDayIds": null,
+        "weekDayId": null,
+        "startDate": "2024-02-13",
+        "endDate": null,
+        "timeRange": 2,
+        "startTime": null,
+        "endTime": null,
+        "startAtOpen": false,
+        "endAtClose": false,
+        "lastModified": "0001-01-01T00:00:00.000",
+        "scheduleTypes": [
+          {
+            "text": "# Hours",
+            "value": 308
+          },
+          {
+            "text": "Daily",
+            "value": 301
+          },
+          {
+            "text": "# Days",
+            "value": 307
+          },
+          {
+            "text": "Weekly",
+            "value": 302
+          },
+          {
+            "text": "BiWeekly",
+            "value": 303
+          },
+          {
+            "text": "Monthly",
+            "value": 304
+          },
+          {
+            "text": "Quarterly",
+            "value": 305
+          },
+          {
+            "text": "Yearly",
+            "value": 306
+          }
+        ],
+        "scheduleSettings": null,
+        "showBeforeAfterTime": false
+      },
+      "status": true,
+      "allAllowNA": false
+    }
+  ],
+  "id": 0,
+  "master": false,
+  "management": false,
+  "signOffVerification": true,
+  "enableByRole": false,
+  "editable": false,
+  "questions": [],
+  "inputTypes": [],
+  "multipleReadingOptions": [],
+  "canCustomize": true,
+  "categories": [],
+  "empTitles": [],
+  "empRoles": [],
+  "empTitleIds": [],
+  "empRoleIds": [],
+  "equipmentTypes": [],
+  "taskTypeId": 1,
+  "settingDto": {
+    "label": null
+  }
+}
