@@ -6,11 +6,11 @@ pipeline {
         
         stage('Test') {
             steps {
-                sh "mvn -D clean test -f ApiAutomation"
+                bat "mvn -D clean test -f ApiAutomation"
                 
             }
             
-            
+           
             
  
             post {                
