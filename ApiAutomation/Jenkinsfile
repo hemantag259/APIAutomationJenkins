@@ -6,7 +6,8 @@ pipeline {
         
         stage('Test') {
             steps {
-                sh 'cd ApiAutomation' 'mvn -D clean test'
+                sh 'cd ApiAutomation' 
+                sh 'mvn -D clean test'
                 
             }
             
