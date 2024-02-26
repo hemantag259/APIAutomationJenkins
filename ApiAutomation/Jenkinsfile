@@ -1,12 +1,15 @@
 pipeline {
     agent any
  
-  
+    tools { 
+      maven 'MAVEN_HOME'
+    }
+    
       stages {
         
         stage('Test') {
             steps {
-                bat "mvn -D clean test -f ApiAutomation"
+                bat "mvn -D clean test"
                 
             }
             
