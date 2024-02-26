@@ -1,7 +1,7 @@
 pipeline {
     agent any
  
-    stages {
+  
       stages {
         stage('Checkout') {
             steps {
@@ -11,6 +11,7 @@ pipeline {
         stage('Test') {
             steps {
                 bat "mvn -D clean test"
+            }
             }
             
             
@@ -32,4 +33,3 @@ pipeline {
             }
         }
     }
-}
