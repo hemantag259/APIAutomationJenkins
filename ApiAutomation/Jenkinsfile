@@ -2,6 +2,12 @@ pipeline {
     agent any
  
     stages {
+      stages {
+        stage('Checkout') {
+            steps {
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: '/ApiAutomation']])
+            }
+        }
         stage('Test') {
             steps {
                 bat "mvn -D clean test"
