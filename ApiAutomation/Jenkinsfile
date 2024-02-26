@@ -5,7 +5,7 @@ pipeline {
       stages {
         stage('Checkout') {
             steps {
-                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: '/ApiAutomation']])
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/hemantag259/APIAutomationJenkins/tree/0ad1f084dee1f9559dff3c18b352c563a99745db/ApiAutomation']])
             }
         }
         stage('Test') {
