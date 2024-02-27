@@ -6,6 +6,7 @@
       <class name="workpulseapi.AddDeskTicket"/>
       <class name="workpulseapi.JournalNote"/>
       <class name="workpulseapi.AddBookTask"/>
+      <class name="workpulseapi.AddAuditForm"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
