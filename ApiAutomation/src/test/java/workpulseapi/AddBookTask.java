@@ -28,7 +28,7 @@ public class AddBookTask extends ExtentReport{
 		String name = new Object(){}.getClass().getEnclosingMethod().getName();
 		extent = extentreport.createTest(name);
 		Random r = new Random();
-		int amount = r.nextInt(10,100);
+		int amount = r.nextInt(10,1000);
         String taskname = "Task Created by Automation_" + amount;
         String AccessToken = BearerToken.generateToken();
 		byte[] b = Files.readAllBytes(Paths.get("AddBookTask.json"));
