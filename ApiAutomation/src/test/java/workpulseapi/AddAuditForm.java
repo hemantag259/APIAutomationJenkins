@@ -51,11 +51,12 @@ public class AddAuditForm extends ExtentReport{
 	    		  .statusCode(200)
 	    		  .log().all().extract().response();
 	      
-	     String formid= response.asString();
+	     formid= response.asString();
 	      
 	     
 	    
 	      System.out.println("Form generated with id as: " + formid);  
+	      System.out.println("Form name is: " + formname);  
 	      extent.log(Status.INFO, "Form generated with id as: " + formid);
 	      
 	}
@@ -71,10 +72,14 @@ public class AddAuditForm extends ExtentReport{
 		
 		
 	      String bdy = new String(b);
-		  JSONObject json = new JSONObject(bdy);
-		  json.put("formId", formid);
-		  json.put("details.formId", formid);
-		  String strbdy = json.toString();
+	     JSONObject jobjectbdy= new JSONObject(bdy);
+	   jobjectbdy.put("formId", formid);
+		 jobjectbdy.put("details.formId", formid);
+	      JSONArray jarray = new JSONArray();
+	      jarray.put(jobjectbdy);
+	
+	      
+		 String strbdy = jarray.toString();
 
 	     
 	
