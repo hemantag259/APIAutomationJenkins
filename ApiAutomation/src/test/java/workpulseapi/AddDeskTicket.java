@@ -26,7 +26,7 @@ public class AddDeskTicket extends ExtentReport {
 		
 		String name = new Object(){}.getClass().getEnclosingMethod().getName();
 		extent = extentreport.createTest(name);
-		byte[] b = Files.readAllBytes(Paths.get("AddDeskTicket.json"));
+		byte[] b = Files.readAllBytes(Paths.get("Models","AddDeskTicket.json"));
 		
 		String AccessToken = BearerToken.generateToken();
 	    String bdy = new String(b);

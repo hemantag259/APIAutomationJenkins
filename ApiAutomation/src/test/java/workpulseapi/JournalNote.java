@@ -30,7 +30,7 @@ public class JournalNote extends ExtentReport{
 		Random r = new Random();
         String notemessage = "Note created by Automation";
         String AccessToken = BearerToken.generateToken();
-		byte[] b = Files.readAllBytes(Paths.get("AddNote.json"));
+		byte[] b = Files.readAllBytes(Paths.get("Models","AddNote.json"));
 		
 		
 	      String bdy = new String(b);

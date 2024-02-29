@@ -32,7 +32,7 @@ public class AddAuditForm extends ExtentReport{
         String formname = "Form Created by Automation_" + amount;
         System.out.println("Form name is " +formname);
         String AccessToken = BearerToken.generateToken();
-		byte[] b = Files.readAllBytes(Paths.get("AddAuditform.json"));
+		byte[] b = Files.readAllBytes(Paths.get("Models","AddAuditform.json"));
 		
 		
 	      String bdy = new String(b);
@@ -68,7 +68,7 @@ public class AddAuditForm extends ExtentReport{
 		extent = extentreport.createTest(name);
 		
 		String AccessToken = BearerToken.generateToken();
-		byte[] b = Files.readAllBytes(Paths.get("AuditFormSaveQuestions.json"));
+		byte[] b = Files.readAllBytes(Paths.get("Models","AuditFormSaveQuestions.json"));
 		
 		
 	      String bdy = new String(b);

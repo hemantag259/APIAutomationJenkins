@@ -31,7 +31,7 @@ public class AddBookTask extends ExtentReport{
 		int amount = r.nextInt(10,1000);
         String taskname = "Task Created by Automation_" + amount;
         String AccessToken = BearerToken.generateToken();
-		byte[] b = Files.readAllBytes(Paths.get("AddBookTask.json"));
+		byte[] b = Files.readAllBytes(Paths.get("Models","AddBookTask.json"));
 		
 		
 	      String bdy = new String(b);
