@@ -1,0 +1,40 @@
+{
+  "TrnFormId": null,
+  "FormId": 4592,
+  "FormTypeId": null,
+  "LocationId": 244,
+  "AuditName": "Form Created by Automation_97_Mar 05, 2024 05:22 pm",
+  "AuditStartTime": "2024-03-05T17:22:15",
+  "AuditEndTime": "2024-03-05T17:22:34",
+  "LastAccessTime": "2024-03-05T17:22:15",
+  "Comments": "",
+  "AuditedUserID": 4254,
+  "ThresholdMinute": null,
+  "AuditType": null,
+  "ScheduleFormId": 0,
+  "CategoryDetails": null,
+  "TrnFormDetails": [
+    {
+      "Id": 0,
+      "QuestionTypeId": 1,
+      "QuestionId": 7609,
+      "Comments": null,
+      "IsNA": false,
+      "CategoryID": 734,
+      "SubCategoryID": 734,
+      "Attachments": null,
+      "Unit": null,
+      "RecordedByDevice": null,
+      "Answers": [
+        {
+          "Id": 0,
+          "AnswerId": 1,
+          "Answer": "Yes"
+        }
+      ],
+      "LinkedQuestions": []
+    }
+  ],
+  "TrnFormGeoData": [],
+  "TrnPlans": []
+}

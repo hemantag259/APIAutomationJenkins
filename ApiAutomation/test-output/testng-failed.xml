@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="workpulseapi.AddAuditForm">
+      <class name="workpulseapi.AddBookTask">
         <methods>
-          <include name="addformquestion"/>
           <include name="reportGenerate"/>
           <include name="reportflush"/>
           <include name="getResult"/>
+          <include name="updatebooktaskwithschedule"/>
         </methods>
-      </class> <!-- workpulseapi.AddAuditForm -->
+      </class> <!-- workpulseapi.AddBookTask -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
