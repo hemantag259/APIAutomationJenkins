@@ -25,6 +25,7 @@ import io.restassured.response.Response;
 public class AddAuditForm extends ExtentReport{
 	
 	public static String formid;
+	public static String formname;
 	
 	@Test(priority=2)
 	public static void addauditform()throws IOException
@@ -32,8 +33,8 @@ public class AddAuditForm extends ExtentReport{
 		String name = new Object(){}.getClass().getEnclosingMethod().getName();
 		extent = extentreport.createTest(name);
 		Random r = new Random();
-		int amount = r.nextInt(10,1000);
-        String formname = "Form Created by Automation_" + amount;
+		int amount = r.nextInt(100,1000);
+        formname = "Form Created by Automation_" + amount;
         System.out.println("Form name is " +formname);
         String AccessToken = BearerToken.generateToken();
 		byte[] b = Files.readAllBytes(Paths.get("Models","AddAuditform.json"));
@@ -182,6 +183,44 @@ public class AddAuditForm extends ExtentReport{
 	      
 	}
 	
+	@Test(priority=6)
+	public static void markinactiveauditform()throws IOException
+	{
+		String name = new Object(){}.getClass().getEnclosingMethod().getName();
+		extent = extentreport.createTest(name);
+		
+		String AccessToken = BearerToken.generateToken();
+		byte[] b = Files.readAllBytes(Paths.get("Models","MarkInactiveAuditForm.json"));
+		
+		
+	      String bdy = new String(b);
+	     JSONObject json= new JSONObject(bdy);
+	     json.put("categoryDetails.id", formid);
+	     json.put("categoryQuestionDetails.id", formid);
+	     json.put("categoryQuestionDetails.details.id", formid);
+	     json.put("id", formid);
+	     json.put("formName", formname);
+	     json.put("filtereddetails.formId", formid);
+	     json.put("filtereddetails.details.formId", formid);
+	
+	
+	    
+		 String strbdy = json.toString();
+
+	     
+	
+				
+	      
+	      Response response = RestAssured.given().contentType(JSON).
+	    		  header("Authorization", "Bearer " +AccessToken).body(strbdy)
+	    		  .when().post("https://opsapi.workpulse.com/api/AuditForm/form")
+	    		  .then()
+	    		  .statusCode(200)
+	    		  .log().all().extract().response();
+	      extent.log(Status.INFO, "Audit Form Inactivated successfully");
+	    
+	      
+	}
 	
 	}
 

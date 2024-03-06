@@ -1,0 +1,1085 @@
+{
+  "showThresholdMinute": false,
+  "categoryDetails": [
+    {
+      "id": 1788,
+      "formId": 4607,
+      "categoryId": 734,
+      "sequence": 1,
+      "totalPoint": null,
+      "allowNA": false,
+      "formTypeId": 0,
+      "allowScoring": false,
+      "scorePercentage": null,
+      "categoryName": "ACCIDENT INFORMATION",
+      "categoryHelp": "",
+      "totalQuestions": 1,
+      "allowComment": false,
+      "$$hashKey": "object:1630"
+    }
+  ],
+  "details": [],
+  "categoryQuestionDetails": [
+    {
+      "id": 1788,
+      "formId": 4607,
+      "formTypeId": null,
+      "categoryId": 734,
+      "categoryName": "ACCIDENT INFORMATION",
+      "sequence": 1,
+      "totalPoint": null,
+      "allowNA": false,
+      "categoryHelp": "",
+      "totalQuestions": 1,
+      "details": [
+        {
+          "id": 11286,
+          "formId": 4607,
+          "formTypeId": 1,
+          "questionId": 7625,
+          "categoryId": 734,
+          "subCategoryId": null,
+          "sequence": 0,
+          "isRequired": false,
+          "showDiagnostic": false,
+          "showCamera": false,
+          "showComments": true,
+          "showHelp": true,
+          "totalPoint": 0,
+          "showQuestion": true,
+          "generateActionPlan": false,
+          "fillablePDFField": "",
+          "answerImageRequired": false,
+          "answerIdForImage": null,
+          "answerIdForAP": null,
+          "allowNA": false,
+          "allowScoring": false,
+          "scoreValue": null,
+          "questionName": "[CH] Basketing to Standard?",
+          "settings": "{\"Slider\":null,\"Unit\":null,\"TextRange\":null,\"FieldDetail\":null,\"HelpContentTypeId\":0}",
+          "questionSettings": {
+            "slider": null,
+            "unit": null,
+            "textRange": null,
+            "fieldDetail": null,
+            "helpContentTypeId": 0
+          },
+          "categoryName": "ACCIDENT INFORMATION",
+          "categoryHelp": null,
+          "subCategoryName": null,
+          "help": "",
+          "questionType": "",
+          "questionTypeName": "Button",
+          "questionTypeId": 1,
+          "master": false,
+          "categorySequence": 1,
+          "actionPlanId": null,
+          "answerOptions": [
+            {
+              "id": 30593,
+              "questionId": 7625,
+              "answerId": 1,
+              "sequence": 1,
+              "answerValue": null,
+              "scoreValue": 5,
+              "answer": null,
+              "answerName": "Yes",
+              "answerNameValue": "Yes",
+              "priority": null,
+              "isNew": false,
+              "$$hashKey": "object:1729"
+            },
+            {
+              "id": 30594,
+              "questionId": 7625,
+              "answerId": 2,
+              "sequence": 2,
+              "answerValue": null,
+              "scoreValue": 5,
+              "answer": null,
+              "answerName": "No",
+              "answerNameValue": "No",
+              "priority": null,
+              "isNew": false,
+              "$$hashKey": "object:1730"
+            }
+          ],
+          "linkedQuestions": [],
+          "isNew": false,
+          "isUpdated": false,
+          "$$hashKey": "object:1721"
+        }
+      ],
+      "allowScoring": false,
+      "$$hashKey": "object:1628"
+    }
+  ],
+  "empTitles": [
+    {
+      "id": 3,
+      "title": "Area Manager",
+      "permissionGroupId": null,
+      "permissionGroupIds": [
+        8,
+        9,
+        10,
+        12,
+        17,
+        18,
+        20,
+        21,
+        22,
+        23,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "manager": true,
+      "inManageUser": true,
+      "importUserType": 2,
+      "laborAmountCoaId": null,
+      "laborHoursCoaId": null,
+      "titleDataViewSettings": {
+        "book": {
+          "bookDataViewDaysLimit": 360,
+          "bookBluetoothDevice": true
+        },
+        "audit": {
+          "auditDataViewDaysLimit": 90,
+          "auditBluetoothDevice": true
+        },
+        "wow": {
+          "organizationPostAllowed": false,
+          "defaultRestrictionSelection": 0,
+          "restrictWowComment": true
+        },
+        "notes": {
+          "defaultNoteTypeId": 5
+        }
+      },
+      "$$hashKey": "object:1633"
+    },
+    {
+      "id": 6,
+      "title": "Assistant Manager",
+      "permissionGroupId": null,
+      "permissionGroupIds": [
+        7,
+        8,
+        20,
+        22,
+        23
+      ],
+      "manager": true,
+      "inManageUser": true,
+      "importUserType": 2,
+      "laborAmountCoaId": null,
+      "laborHoursCoaId": null,
+      "titleDataViewSettings": {
+        "book": {
+          "bookDataViewDaysLimit": 90,
+          "bookBluetoothDevice": true
+        },
+        "audit": {
+          "auditDataViewDaysLimit": 0,
+          "auditBluetoothDevice": false
+        },
+        "wow": {
+          "organizationPostAllowed": false,
+          "defaultRestrictionSelection": 0,
+          "restrictWowComment": true
+        },
+        "notes": {
+          "defaultNoteTypeId": 3
+        }
+      },
+      "$$hashKey": "object:1634"
+    },
+    {
+      "id": 13,
+      "title": "BRV",
+      "permissionGroupId": null,
+      "permissionGroupIds": [
+        4,
+        9,
+        10,
+        21,
+        24,
+        32
+      ],
+      "manager": true,
+      "inManageUser": true,
+      "importUserType": 2,
+      "laborAmountCoaId": null,
+      "laborHoursCoaId": null,
+      "titleDataViewSettings": {
+        "book": {
+          "bookDataViewDaysLimit": 300,
+          "bookBluetoothDevice": true
+        },
+        "audit": {
+          "auditDataViewDaysLimit": 0,
+          "auditBluetoothDevice": true
+        },
+        "wow": {
+          "organizationPostAllowed": false,
+          "defaultRestrictionSelection": 0,
+          "restrictWowComment": true
+        },
+        "notes": {
+          "defaultNoteTypeId": 2
+        }
+      },
+      "$$hashKey": "object:1635"
+    },
+    {
+      "id": 2,
+      "title": "Director Of Operations",
+      "permissionGroupId": null,
+      "permissionGroupIds": [
+        32
+      ],
+      "manager": true,
+      "inManageUser": true,
+      "importUserType": 1,
+      "laborAmountCoaId": null,
+      "laborHoursCoaId": null,
+      "titleDataViewSettings": {
+        "book": {
+          "bookDataViewDaysLimit": 90,
+          "bookBluetoothDevice": true
+        },
+        "audit": {
+          "auditDataViewDaysLimit": 1500,
+          "auditBluetoothDevice": true
+        },
+        "wow": {
+          "organizationPostAllowed": false,
+          "defaultRestrictionSelection": 0,
+          "restrictWowComment": false
+        },
+        "notes": {
+          "defaultNoteTypeId": 3
+        }
+      },
+      "$$hashKey": "object:1636"
+    },
+    {
+      "id": 24,
+      "title": "Director Of Operations",
+      "permissionGroupId": null,
+      "permissionGroupIds": [
+        8,
+        35
+      ],
+      "manager": false,
+      "inManageUser": false,
+      "importUserType": 2,
+      "laborAmountCoaId": null,
+      "laborHoursCoaId": null,
+      "titleDataViewSettings": {
+        "book": {
+          "bookDataViewDaysLimit": 0,
+          "bookBluetoothDevice": true
+        },
+        "audit": {
+          "auditDataViewDaysLimit": 0,
+          "auditBluetoothDevice": true
+        },
+        "wow": {
+          "organizationPostAllowed": false,
+          "defaultRestrictionSelection": 0,
+          "restrictWowComment": false
+        },
+        "notes": {
+          "defaultNoteTypeId": 5
+        }
+      },
+      "$$hashKey": "object:1637"
+    },
+    {
+      "id": 1,
+      "title": "Franchisee",
+      "permissionGroupId": 4,
+      "permissionGroupIds": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        38,
+        39
+      ],
+      "manager": true,
+      "inManageUser": true,
+      "importUserType": 2,
+      "laborAmountCoaId": null,
+      "laborHoursCoaId": null,
+      "titleDataViewSettings": {
+        "book": {
+          "bookDataViewDaysLimit": 90,
+          "bookBluetoothDevice": true
+        },
+        "audit": {
+          "auditDataViewDaysLimit": 0,
+          "auditBluetoothDevice": true
+        },
+        "wow": {
+          "organizationPostAllowed": false,
+          "defaultRestrictionSelection": 0,
+          "restrictWowComment": false
+        },
+        "notes": {
+          "defaultNoteTypeId": 5
+        }
+      },
+      "$$hashKey": "object:1638"
+    },
+    {
+      "id": 22,
+      "title": "HR and Management",
+      "permissionGroupId": null,
+      "permissionGroupIds": [
+        24
+      ],
+      "manager": false,
+      "inManageUser": false,
+      "importUserType": 2,
+      "laborAmountCoaId": null,
+      "laborHoursCoaId": null,
+      "titleDataViewSettings": {
+        "book": {
+          "bookDataViewDaysLimit": 0,
+          "bookBluetoothDevice": true
+        },
+        "audit": {
+          "auditDataViewDaysLimit": 0,
+          "auditBluetoothDevice": true
+        },
+        "wow": {
+          "organizationPostAllowed": false,
+          "defaultRestrictionSelection": 0,
+          "restrictWowComment": false
+        },
+        "notes": {
+          "defaultNoteTypeId": 3
+        }
+      },
+      "$$hashKey": "object:1639"
+    },
+    {
+      "id": 17,
+      "title": "Human Resource Specialist",
+      "permissionGroupId": null,
+      "permissionGroupIds": [
+        24
+      ],
+      "manager": true,
+      "inManageUser": true,
+      "importUserType": 2,
+      "laborAmountCoaId": null,
+      "laborHoursCoaId": null,
+      "titleDataViewSettings": {
+        "book": {
+          "bookDataViewDaysLimit": 100,
+          "bookBluetoothDevice": true
+        },
+        "audit": {
+          "auditDataViewDaysLimit": 0,
+          "auditBluetoothDevice": false
+        },
+        "wow": {
+          "organizationPostAllowed": false,
+          "defaultRestrictionSelection": 0,
+          "restrictWowComment": true
+        },
+        "notes": {
+          "defaultNoteTypeId": 3
+        }
+      },
+      "$$hashKey": "object:1640"
+    },
+    {
+      "id": 21,
+      "title": "Junior engineer",
+      "permissionGroupId": null,
+      "permissionGroupIds": [
+        34
+      ],
+      "manager": true,
+      "inManageUser": true,
+      "importUserType": 2,
+      "laborAmountCoaId": null,
+      "laborHoursCoaId": null,
+      "titleDataViewSettings": {
+        "book": {
+          "bookDataViewDaysLimit": 0,
+          "bookBluetoothDevice": true
+        },
+        "audit": {
+          "auditDataViewDaysLimit": 0,
+          "auditBluetoothDevice": true
+        },
+        "wow": {
+          "organizationPostAllowed": false,
+          "defaultRestrictionSelection": 0,
+          "restrictWowComment": false
+        },
+        "notes": {
+          "defaultNoteTypeId": 1
+        }
+      },
+      "$$hashKey": "object:1641"
+    },
+    {
+      "id": 20,
+      "title": "Junior manager",
+      "permissionGroupId": null,
+      "permissionGroupIds": [
+        4,
+        6,
+        8,
+        9,
+        21,
+        22
+      ],
+      "manager": false,
+      "inManageUser": false,
+      "importUserType": 0,
+      "laborAmountCoaId": null,
+      "laborHoursCoaId": null,
+      "titleDataViewSettings": {
+        "book": {
+          "bookDataViewDaysLimit": 0,
+          "bookBluetoothDevice": true
+        },
+        "audit": {
+          "auditDataViewDaysLimit": 0,
+          "auditBluetoothDevice": true
+        },
+        "wow": {
+          "organizationPostAllowed": false,
+          "defaultRestrictionSelection": 0,
+          "restrictWowComment": false
+        },
+        "notes": {
+          "defaultNoteTypeId": 2
+        }
+      },
+      "$$hashKey": "object:1642"
+    },
+    {
+      "id": 9,
+      "title": "Learner",
+      "permissionGroupId": null,
+      "permissionGroupIds": [
+        24
+      ],
+      "manager": true,
+      "inManageUser": true,
+      "importUserType": 2,
+      "laborAmountCoaId": null,
+      "laborHoursCoaId": null,
+      "titleDataViewSettings": {
+        "book": {
+          "bookDataViewDaysLimit": 0,
+          "bookBluetoothDevice": true
+        },
+        "audit": {
+          "auditDataViewDaysLimit": 0,
+          "auditBluetoothDevice": true
+        },
+        "wow": {
+          "organizationPostAllowed": false,
+          "defaultRestrictionSelection": 0,
+          "restrictWowComment": true
+        },
+        "notes": {
+          "defaultNoteTypeId": 3
+        }
+      },
+      "$$hashKey": "object:1643"
+    },
+    {
+      "id": 16,
+      "title": "Maintence Technician",
+      "permissionGroupId": null,
+      "permissionGroupIds": [
+        26
+      ],
+      "manager": true,
+      "inManageUser": true,
+      "importUserType": 2,
+      "laborAmountCoaId": null,
+      "laborHoursCoaId": null,
+      "titleDataViewSettings": {
+        "book": {
+          "bookDataViewDaysLimit": 0,
+          "bookBluetoothDevice": true
+        },
+        "audit": {
+          "auditDataViewDaysLimit": 0,
+          "auditBluetoothDevice": true
+        },
+        "wow": {
+          "organizationPostAllowed": false,
+          "defaultRestrictionSelection": 0,
+          "restrictWowComment": false
+        },
+        "notes": {
+          "defaultNoteTypeId": 2
+        }
+      },
+      "$$hashKey": "object:1644"
+    },
+    {
+      "id": 5,
+      "title": "Multi-unit Manager",
+      "permissionGroupId": null,
+      "permissionGroupIds": [
+        5,
+        6,
+        7
+      ],
+      "manager": true,
+      "inManageUser": false,
+      "importUserType": 1,
+      "laborAmountCoaId": null,
+      "laborHoursCoaId": null,
+      "titleDataViewSettings": {
+        "book": {
+          "bookDataViewDaysLimit": 0,
+          "bookBluetoothDevice": true
+        },
+        "audit": {
+          "auditDataViewDaysLimit": 0,
+          "auditBluetoothDevice": false
+        },
+        "wow": {
+          "organizationPostAllowed": false,
+          "defaultRestrictionSelection": 0,
+          "restrictWowComment": false
+        },
+        "notes": {
+          "defaultNoteTypeId": 5
+        }
+      },
+      "$$hashKey": "object:1645"
+    },
+    {
+      "id": 23,
+      "title": "Quality manager",
+      "permissionGroupId": null,
+      "permissionGroupIds": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "manager": true,
+      "inManageUser": true,
+      "importUserType": 1,
+      "laborAmountCoaId": null,
+      "laborHoursCoaId": null,
+      "titleDataViewSettings": {
+        "book": {
+          "bookDataViewDaysLimit": 0,
+          "bookBluetoothDevice": true
+        },
+        "audit": {
+          "auditDataViewDaysLimit": 0,
+          "auditBluetoothDevice": true
+        },
+        "wow": {
+          "organizationPostAllowed": false,
+          "defaultRestrictionSelection": 0,
+          "restrictWowComment": false
+        },
+        "notes": {
+          "defaultNoteTypeId": 3
+        }
+      },
+      "$$hashKey": "object:1646"
+    },
+    {
+      "id": 4,
+      "title": "Restaurant General Manager",
+      "permissionGroupId": null,
+      "permissionGroupIds": [
+        5,
+        6,
+        8,
+        20,
+        22
+      ],
+      "manager": true,
+      "inManageUser": true,
+      "importUserType": 2,
+      "laborAmountCoaId": null,
+      "laborHoursCoaId": null,
+      "titleDataViewSettings": {
+        "book": {
+          "bookDataViewDaysLimit": 0,
+          "bookBluetoothDevice": false
+        },
+        "audit": {
+          "auditDataViewDaysLimit": 0,
+          "auditBluetoothDevice": false
+        },
+        "wow": {
+          "organizationPostAllowed": false,
+          "defaultRestrictionSelection": 0,
+          "restrictWowComment": true
+        },
+        "notes": {
+          "defaultNoteTypeId": 2
+        }
+      },
+      "$$hashKey": "object:1647"
+    },
+    {
+      "id": 19,
+      "title": "Senior Manager",
+      "permissionGroupId": null,
+      "permissionGroupIds": [
+        5,
+        6,
+        7,
+        10,
+        14,
+        17,
+        19,
+        22,
+        23,
+        24,
+        26,
+        27,
+        28,
+        29,
+        31,
+        32
+      ],
+      "manager": true,
+      "inManageUser": true,
+      "importUserType": 2,
+      "laborAmountCoaId": null,
+      "laborHoursCoaId": null,
+      "titleDataViewSettings": {
+        "book": {
+          "bookDataViewDaysLimit": 0,
+          "bookBluetoothDevice": true
+        },
+        "audit": {
+          "auditDataViewDaysLimit": 0,
+          "auditBluetoothDevice": true
+        },
+        "wow": {
+          "organizationPostAllowed": false,
+          "defaultRestrictionSelection": 0,
+          "restrictWowComment": true
+        },
+        "notes": {
+          "defaultNoteTypeId": 2
+        }
+      },
+      "$$hashKey": "object:1648"
+    },
+    {
+      "id": 7,
+      "title": "Shift Leader",
+      "permissionGroupId": null,
+      "permissionGroupIds": [
+        8,
+        9,
+        22
+      ],
+      "manager": true,
+      "inManageUser": true,
+      "importUserType": 1,
+      "laborAmountCoaId": null,
+      "laborHoursCoaId": null,
+      "titleDataViewSettings": {
+        "book": {
+          "bookDataViewDaysLimit": 0,
+          "bookBluetoothDevice": false
+        },
+        "audit": {
+          "auditDataViewDaysLimit": 0,
+          "auditBluetoothDevice": true
+        },
+        "wow": {
+          "organizationPostAllowed": false,
+          "defaultRestrictionSelection": 0,
+          "restrictWowComment": false
+        },
+        "notes": {
+          "defaultNoteTypeId": 2
+        }
+      },
+      "$$hashKey": "object:1649"
+    },
+    {
+      "id": 14,
+      "title": "Store Manager",
+      "permissionGroupId": null,
+      "permissionGroupIds": [
+        10
+      ],
+      "manager": true,
+      "inManageUser": true,
+      "importUserType": 2,
+      "laborAmountCoaId": null,
+      "laborHoursCoaId": null,
+      "titleDataViewSettings": {
+        "book": {
+          "bookDataViewDaysLimit": 0,
+          "bookBluetoothDevice": false
+        },
+        "audit": {
+          "auditDataViewDaysLimit": 0,
+          "auditBluetoothDevice": true
+        },
+        "wow": {
+          "organizationPostAllowed": false,
+          "defaultRestrictionSelection": 0,
+          "restrictWowComment": true
+        },
+        "notes": {
+          "defaultNoteTypeId": 1
+        }
+      },
+      "$$hashKey": "object:1650"
+    },
+    {
+      "id": 10,
+      "title": "Team Lead",
+      "permissionGroupId": 9,
+      "permissionGroupIds": [
+        24
+      ],
+      "manager": false,
+      "inManageUser": false,
+      "importUserType": 2,
+      "laborAmountCoaId": null,
+      "laborHoursCoaId": null,
+      "titleDataViewSettings": {
+        "book": {
+          "bookDataViewDaysLimit": 0,
+          "bookBluetoothDevice": true
+        },
+        "audit": {
+          "auditDataViewDaysLimit": 0,
+          "auditBluetoothDevice": false
+        },
+        "wow": {
+          "organizationPostAllowed": false,
+          "defaultRestrictionSelection": 0,
+          "restrictWowComment": false
+        },
+        "notes": {
+          "defaultNoteTypeId": 3
+        }
+      },
+      "$$hashKey": "object:1651"
+    },
+    {
+      "id": 8,
+      "title": "Team Member",
+      "permissionGroupId": null,
+      "permissionGroupIds": [
+        9
+      ],
+      "manager": true,
+      "inManageUser": true,
+      "importUserType": 2,
+      "laborAmountCoaId": null,
+      "laborHoursCoaId": null,
+      "titleDataViewSettings": {
+        "book": {
+          "bookDataViewDaysLimit": 95,
+          "bookBluetoothDevice": true
+        },
+        "audit": {
+          "auditDataViewDaysLimit": 0,
+          "auditBluetoothDevice": true
+        },
+        "wow": {
+          "organizationPostAllowed": false,
+          "defaultRestrictionSelection": 0,
+          "restrictWowComment": false
+        },
+        "notes": {
+          "defaultNoteTypeId": 3
+        }
+      },
+      "$$hashKey": "object:1652"
+    },
+    {
+      "id": 25,
+      "title": "WPS Support",
+      "permissionGroupId": null,
+      "permissionGroupIds": [
+        19
+      ],
+      "manager": true,
+      "inManageUser": true,
+      "importUserType": 2,
+      "laborAmountCoaId": null,
+      "laborHoursCoaId": null,
+      "titleDataViewSettings": {
+        "book": {
+          "bookDataViewDaysLimit": 0,
+          "bookBluetoothDevice": true
+        },
+        "audit": {
+          "auditDataViewDaysLimit": 0,
+          "auditBluetoothDevice": true
+        },
+        "wow": {
+          "organizationPostAllowed": false,
+          "defaultRestrictionSelection": 0,
+          "restrictWowComment": false
+        },
+        "notes": {
+          "defaultNoteTypeId": 3
+        }
+      },
+      "$$hashKey": "object:1653"
+    },
+    {
+      "id": 26,
+      "title": "WPS Trainee",
+      "permissionGroupId": null,
+      "permissionGroupIds": [
+        39
+      ],
+      "manager": false,
+      "inManageUser": false,
+      "importUserType": 0,
+      "laborAmountCoaId": null,
+      "laborHoursCoaId": null,
+      "titleDataViewSettings": {
+        "book": {
+          "bookDataViewDaysLimit": 0,
+          "bookBluetoothDevice": true
+        },
+        "audit": {
+          "auditDataViewDaysLimit": 0,
+          "auditBluetoothDevice": true
+        },
+        "wow": {
+          "organizationPostAllowed": false,
+          "defaultRestrictionSelection": 0,
+          "restrictWowComment": false
+        },
+        "notes": {
+          "defaultNoteTypeId": 3
+        }
+      },
+      "$$hashKey": "object:1654"
+    }
+  ],
+  "id": 4607,
+  "formName": "Form Created by Automation_211",
+  "status": false,
+  "formDesc": "new audit form",
+  "formVersion": "1.0.0",
+  "help": "",
+  "checkRules": false,
+  "reportType": "",
+  "fillableType": "",
+  "appAccess": "WorkpulseAudit",
+  "master": false,
+  "thresholdMinute": null,
+  "empTitleIds": [
+    13
+  ],
+  "viewReportEmpTitleIds": [
+    13
+  ],
+  "orgAccess": true,
+  "brand": false,
+  "formTypeId": 1,
+  "titleAlignment": null,
+  "descAlignment": null,
+  "confirmationText": null,
+  "addedBy": 4254,
+  "addedDateTime": "2024-03-06T13:49:30.710",
+  "modifiedBy": null,
+  "modifiedDateTime": null,
+  "settings": "{\"pendingNotification\":{\"daysAfter\":1,\"daysToEndNotification\":0,\"empTitleIds\":[],\"allowNotification\":false,\"allowEmail\":false},\"scoring\":{\"allowScoring\":true,\"scoringPercentage\":50,\"showScoringCategory\":false},\"general\":{\"allowComment\":false},\"checklistType\":0,\"health\":{\"vaccinationTypeId\":1,\"sequence\":247},\"desk\":null}",
+  "formSettings": {
+    "pendingNotification": {
+      "daysAfter": 1,
+      "daysToEndNotification": 0,
+      "empTitleIds": [],
+      "allowNotification": false,
+      "allowEmail": false
+    },
+    "scoring": {
+      "allowScoring": true,
+      "scoringPercentage": 50,
+      "showScoringCategory": false
+    },
+    "general": {
+      "allowComment": false
+    },
+    "checklistType": 0,
+    "health": {
+      "vaccinationTypeId": 1,
+      "sequence": 247
+    },
+    "desk": null
+  },
+  "filtereddetails": [
+    {
+      "id": 1788,
+      "formId": 4607,
+      "formTypeId": null,
+      "categoryId": 734,
+      "categoryName": "ACCIDENT INFORMATION",
+      "sequence": 1,
+      "totalPoint": null,
+      "allowNA": false,
+      "categoryHelp": "",
+      "totalQuestions": 1,
+      "details": [
+        {
+          "id": 11286,
+          "formId": 4607,
+          "formTypeId": 1,
+          "questionId": 7625,
+          "categoryId": 734,
+          "subCategoryId": null,
+          "sequence": 0,
+          "isRequired": false,
+          "showDiagnostic": false,
+          "showCamera": false,
+          "showComments": true,
+          "showHelp": true,
+          "totalPoint": 0,
+          "showQuestion": true,
+          "generateActionPlan": false,
+          "fillablePDFField": "",
+          "answerImageRequired": false,
+          "answerIdForImage": null,
+          "answerIdForAP": null,
+          "allowNA": false,
+          "allowScoring": false,
+          "scoreValue": null,
+          "questionName": "[CH] Basketing to Standard?",
+          "settings": "{\"Slider\":null,\"Unit\":null,\"TextRange\":null,\"FieldDetail\":null,\"HelpContentTypeId\":0}",
+          "questionSettings": {
+            "slider": null,
+            "unit": null,
+            "textRange": null,
+            "fieldDetail": null,
+            "helpContentTypeId": 0
+          },
+          "categoryName": "ACCIDENT INFORMATION",
+          "categoryHelp": null,
+          "subCategoryName": null,
+          "help": "",
+          "questionType": "",
+          "questionTypeName": "Button",
+          "questionTypeId": 1,
+          "master": false,
+          "categorySequence": 1,
+          "actionPlanId": null,
+          "answerOptions": [
+            {
+              "id": 30593,
+              "questionId": 7625,
+              "answerId": 1,
+              "sequence": 1,
+              "answerValue": null,
+              "scoreValue": 5,
+              "answer": null,
+              "answerName": "Yes",
+              "answerNameValue": "Yes",
+              "priority": null,
+              "isNew": false,
+              "$$hashKey": "object:1729"
+            },
+            {
+              "id": 30594,
+              "questionId": 7625,
+              "answerId": 2,
+              "sequence": 2,
+              "answerValue": null,
+              "scoreValue": 5,
+              "answer": null,
+              "answerName": "No",
+              "answerNameValue": "No",
+              "priority": null,
+              "isNew": false,
+              "$$hashKey": "object:1730"
+            }
+          ],
+          "linkedQuestions": [],
+          "isNew": false,
+          "isUpdated": false,
+          "$$hashKey": "object:1721"
+        }
+      ],
+      "allowScoring": false,
+      "$$hashKey": "object:1628"
+    }
+  ]
+}
