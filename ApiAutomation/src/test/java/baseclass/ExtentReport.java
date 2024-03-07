@@ -19,7 +19,7 @@ public class ExtentReport  {
 
 	public static ExtentReports extentreport;
 	public static ExtentTest extent;
-	public static ExtentSparkReporter reporter;
+	public static ExtentSparkReporter reporter ;
 	
 	@BeforeSuite
 	public static void reportGenerate()
