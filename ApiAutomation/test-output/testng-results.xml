@@ -1,96 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-06T19:40:41 IST" name="Default suite" finished-at="2024-03-06T19:40:55 IST" duration-ms="13770">
+  <suite started-at="2024-03-11T19:50:11 IST" name="Default suite" finished-at="2024-03-11T19:50:59 IST" duration-ms="47599">
     <groups>
     </groups>
-    <test started-at="2024-03-06T19:40:41 IST" name="Default test" finished-at="2024-03-06T19:40:55 IST" duration-ms="13770">
-      <class name="workpulseapi.AddAuditForm">
-        <test-method is-config="true" signature="reportGenerate()[pri:0, instance:workpulseapi.AddAuditForm@5939a379]" started-at="2024-03-06T19:40:41 IST" name="reportGenerate" finished-at="2024-03-06T19:40:41 IST" duration-ms="163" status="PASS">
+    <test started-at="2024-03-11T19:50:11 IST" name="Default test" finished-at="2024-03-11T19:50:59 IST" duration-ms="47599">
+      <class name="workpulseapi.AddAssessmentSchedule">
+        <test-method is-config="true" signature="reportGenerate()[pri:0, instance:workpulseapi.AddAssessmentSchedule@1bb266b3]" started-at="2024-03-11T19:50:11 IST" name="reportGenerate" finished-at="2024-03-11T19:50:11 IST" duration-ms="296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportGenerate -->
-        <test-method signature="addauditform()[pri:2, instance:workpulseapi.AddAuditForm@5939a379]" started-at="2024-03-06T19:40:41 IST" name="addauditform" finished-at="2024-03-06T19:40:45 IST" duration-ms="4384" status="PASS">
+        <test-method signature="addassessmentschedule()[pri:2, instance:workpulseapi.AddAssessmentSchedule@1bb266b3]" started-at="2024-03-11T19:50:11 IST" name="addassessmentschedule" finished-at="2024-03-11T19:50:59 IST" duration-ms="47555" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addauditform -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:workpulseapi.AddAuditForm@5939a379]" started-at="2024-03-06T19:40:45 IST" name="getResult" finished-at="2024-03-06T19:40:45 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- addassessmentschedule -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:workpulseapi.AddAssessmentSchedule@1bb266b3]" started-at="2024-03-11T19:50:59 IST" name="getResult" finished-at="2024-03-11T19:50:59 IST" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addauditform status=SUCCESS method=AddAuditForm.addauditform()[pri:2, instance:workpulseapi.AddAuditForm@5939a379] output={null}]]]>
+                <![CDATA[[TestResult name=addassessmentschedule status=SUCCESS method=AddAssessmentSchedule.addassessmentschedule()[pri:2, instance:workpulseapi.AddAssessmentSchedule@1bb266b3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="addformquestion()[pri:3, instance:workpulseapi.AddAuditForm@5939a379]" started-at="2024-03-06T19:40:45 IST" name="addformquestion" finished-at="2024-03-06T19:40:48 IST" duration-ms="2661" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addformquestion -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:workpulseapi.AddAuditForm@5939a379]" started-at="2024-03-06T19:40:48 IST" name="getResult" finished-at="2024-03-06T19:40:48 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=addformquestion status=SUCCESS method=AddAuditForm.addformquestion()[pri:3, instance:workpulseapi.AddAuditForm@5939a379] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method signature="assignlocation()[pri:4, instance:workpulseapi.AddAuditForm@5939a379]" started-at="2024-03-06T19:40:48 IST" name="assignlocation" finished-at="2024-03-06T19:40:50 IST" duration-ms="2208" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assignlocation -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:workpulseapi.AddAuditForm@5939a379]" started-at="2024-03-06T19:40:50 IST" name="getResult" finished-at="2024-03-06T19:40:50 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=assignlocation status=SUCCESS method=AddAuditForm.assignlocation()[pri:4, instance:workpulseapi.AddAuditForm@5939a379] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method signature="auditformsubmission()[pri:5, instance:workpulseapi.AddAuditForm@5939a379]" started-at="2024-03-06T19:40:50 IST" name="auditformsubmission" finished-at="2024-03-06T19:40:53 IST" duration-ms="2571" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- auditformsubmission -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:workpulseapi.AddAuditForm@5939a379]" started-at="2024-03-06T19:40:53 IST" name="getResult" finished-at="2024-03-06T19:40:53 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=auditformsubmission status=SUCCESS method=AddAuditForm.auditformsubmission()[pri:5, instance:workpulseapi.AddAuditForm@5939a379] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method signature="markinactiveauditform()[pri:6, instance:workpulseapi.AddAuditForm@5939a379]" started-at="2024-03-06T19:40:53 IST" name="markinactiveauditform" finished-at="2024-03-06T19:40:55 IST" duration-ms="1899" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- markinactiveauditform -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:workpulseapi.AddAuditForm@5939a379]" started-at="2024-03-06T19:40:55 IST" name="getResult" finished-at="2024-03-06T19:40:55 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=markinactiveauditform status=SUCCESS method=AddAuditForm.markinactiveauditform()[pri:6, instance:workpulseapi.AddAuditForm@5939a379] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="reportflush()[pri:0, instance:workpulseapi.AddAuditForm@5939a379]" started-at="2024-03-06T19:40:55 IST" name="reportflush" finished-at="2024-03-06T19:40:55 IST" duration-ms="248" status="PASS">
+        <test-method is-config="true" signature="reportflush()[pri:0, instance:workpulseapi.AddAssessmentSchedule@1bb266b3]" started-at="2024-03-11T19:50:59 IST" name="reportflush" finished-at="2024-03-11T19:50:59 IST" duration-ms="252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportflush -->
-      </class> <!-- workpulseapi.AddAuditForm -->
+      </class> <!-- workpulseapi.AddAssessmentSchedule -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

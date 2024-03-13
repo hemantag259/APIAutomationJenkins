@@ -1,0 +1,694 @@
+{
+  "id": 0,
+  "name": "Appraisal for the entire team",
+  "formId": "4001",
+  "formName": null,
+  "status": true,
+  "scheduleId": 0,
+  "selfAssessment": true,
+  "assessmentDays": 1,
+  "minimumServiceTenure": false,
+  "tenureDuration": null,
+  "recurring": false,
+  "showEvaluation": false,
+  "formTypeId": 4,
+  "empTitleIds": [
+    13
+  ],
+  "scheduleTypeId": 0,
+  "emailIds": null,
+  "scheduleReportId": null,
+  "isPreview": true,
+  "empIds": [],
+  "evaluatorEmpId": 4254,
+  "evaluatorFullName": "hemant Agrawal",
+  "schedule": {
+    "scheduleTypes": null,
+    "scheduleTypeId": 304,
+    "startDate": "Mar 11, 2024",
+    "endDate": null,
+    "durationDays": 1,
+    "recurring": "false",
+    "isMultiday": false,
+    "id": 0
+  },
+  "peopleReviewDetails": [
+    {
+      "id": 0,
+      "formScheduleId": 0,
+      "level": 1,
+      "empId": 0,
+      "durationDays": 3,
+      "managerLevel": 1,
+      "reviewerTitle": " Review 1",
+      "durationDate": "Mar 17, 2024",
+      "reviewerUser": [
+        {
+          "empId": 2945,
+          "empName": "Aarti Verma",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1659"
+        },
+        {
+          "empId": 4307,
+          "empName": "Aasthashah Singh",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1660"
+        },
+        {
+          "empId": 3160,
+          "empName": "abhiraj dixit",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1661"
+        },
+        {
+          "empId": 4360,
+          "empName": "Aditya Raje",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1662"
+        },
+        {
+          "empId": 3153,
+          "empName": "Aditya Shah",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1663"
+        },
+        {
+          "empId": 4433,
+          "empName": "Admin User",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1664"
+        },
+        {
+          "empId": 2822,
+          "empName": "Akshay Singh",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1665"
+        },
+        {
+          "empId": 2,
+          "empName": "Al Director",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1666"
+        },
+        {
+          "empId": 4359,
+          "empName": "Alok Nath",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1667"
+        },
+        {
+          "empId": 134,
+          "empName": "Amit gupta12",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1668"
+        },
+        {
+          "empId": 113,
+          "empName": "Amit Shah",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1669"
+        },
+        {
+          "empId": 129,
+          "empName": "Andrew Bele",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1670"
+        },
+        {
+          "empId": 4422,
+          "empName": "Android user",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1671"
+        },
+        {
+          "empId": 4210,
+          "empName": "Arun Mandi",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1672"
+        },
+        {
+          "empId": 117,
+          "empName": "Atul Nayak",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1673"
+        },
+        {
+          "empId": 376,
+          "empName": "Auto Generation",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1674"
+        },
+        {
+          "empId": 2848,
+          "empName": "Bala Patidar",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1675"
+        },
+        {
+          "empId": 2991,
+          "empName": "Balmukund Sahu",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1676"
+        },
+        {
+          "empId": 4,
+          "empName": "Calvin Manager",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1677"
+        },
+        {
+          "empId": 4455,
+          "empName": "Chinkal Goyal",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1678"
+        },
+        {
+          "empId": 121,
+          "empName": "Chris Savior",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1679"
+        },
+        {
+          "empId": 4198,
+          "empName": "Daniel Montanez",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1680"
+        },
+        {
+          "empId": 4396,
+          "empName": "Daniel vitory",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1681"
+        },
+        {
+          "empId": 126,
+          "empName": "Danish Hyden",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1682"
+        },
+        {
+          "empId": 122,
+          "empName": "Darshan kusumakar",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1683"
+        },
+        {
+          "empId": 130,
+          "empName": "David Brothers",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1684"
+        },
+        {
+          "empId": 4218,
+          "empName": "Deepak Kushwaha",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1685"
+        },
+        {
+          "empId": 4301,
+          "empName": "Deepika Sharma",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1686"
+        },
+        {
+          "empId": 4297,
+          "empName": "Deepika Singh",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1687"
+        },
+        {
+          "empId": 140,
+          "empName": "Devndara Pratap",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1688"
+        },
+        {
+          "empId": 5,
+          "empName": "Don Manager",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1689"
+        },
+        {
+          "empId": 3387,
+          "empName": "Franchisee arun",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1690"
+        },
+        {
+          "empId": 3772,
+          "empName": "Franchisee dpatidar",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1691"
+        },
+        {
+          "empId": 3870,
+          "empName": "Franchisee nhinduja",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1692"
+        },
+        {
+          "empId": 3927,
+          "empName": "Franchisee pthakkar",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1693"
+        },
+        {
+          "empId": 3923,
+          "empName": "Franchisee qaworkpulsepriyanka@gmail.com",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1694"
+        },
+        {
+          "empId": 497,
+          "empName": "glen12 Gray",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1695"
+        },
+        {
+          "empId": 147,
+          "empName": "Gopal Sandhu",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1696"
+        },
+        {
+          "empId": 910,
+          "empName": "hemant new1",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1697"
+        },
+        {
+          "empId": 2720,
+          "empName": "Hemant Patidar",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1698"
+        },
+        {
+          "empId": 4394,
+          "empName": "Jack haeley",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1699"
+        },
+        {
+          "empId": 2723,
+          "empName": "James Smith",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1700"
+        },
+        {
+          "empId": 2797,
+          "empName": "Jose villiam",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1701"
+        },
+        {
+          "empId": 2958,
+          "empName": "Kiyara Sharma",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1702"
+        },
+        {
+          "empId": 363,
+          "empName": "Lee Shau Kee",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1703"
+        },
+        {
+          "empId": 2850,
+          "empName": "Lily Moriarty",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1704"
+        },
+        {
+          "empId": 118,
+          "empName": "Mohit Yadav",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1705"
+        },
+        {
+          "empId": 3016,
+          "empName": "Muskan Jaiswal",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1706"
+        },
+        {
+          "empId": 2973,
+          "empName": "namita verma",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1707"
+        },
+        {
+          "empId": 219,
+          "empName": "Navdeep Saini",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1708"
+        },
+        {
+          "empId": 718,
+          "empName": "Neha Dalke",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1709"
+        },
+        {
+          "empId": 2989,
+          "empName": "Neha Hinduja",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1710"
+        },
+        {
+          "empId": 4482,
+          "empName": "Nidhi Jain",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1711"
+        },
+        {
+          "empId": 2758,
+          "empName": "Nitisha sen",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1712"
+        },
+        {
+          "empId": 2816,
+          "empName": "Piyush Goyal",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1713"
+        },
+        {
+          "empId": 712,
+          "empName": "Pranjal Verma",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1714"
+        },
+        {
+          "empId": 2804,
+          "empName": "Priyanka Saxena",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1715"
+        },
+        {
+          "empId": 3017,
+          "empName": "Rahul Gupta",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1716"
+        },
+        {
+          "empId": 3161,
+          "empName": "Rahul Gupta JI",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1717"
+        },
+        {
+          "empId": 2865,
+          "empName": "Raj nagar",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1718"
+        },
+        {
+          "empId": 2806,
+          "empName": "Rashmi Singh",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1719"
+        },
+        {
+          "empId": 2807,
+          "empName": "Rashmi Singh",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1720"
+        },
+        {
+          "empId": 3300,
+          "empName": "Restaurant General Manager abele",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1721"
+        },
+        {
+          "empId": 3593,
+          "empName": "Restaurant General Manager ggray",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1722"
+        },
+        {
+          "empId": 3635,
+          "empName": "Restaurant General Manager jmartin",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1723"
+        },
+        {
+          "empId": 2792,
+          "empName": "Richard Klein",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1724"
+        },
+        {
+          "empId": 4338,
+          "empName": "Ritika Sharma",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1725"
+        },
+        {
+          "empId": 2889,
+          "empName": "Rohanlal tiwari",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1726"
+        },
+        {
+          "empId": 4365,
+          "empName": "Roman Tyson",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1727"
+        },
+        {
+          "empId": 4322,
+          "empName": "Shailesh Shukla",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1728"
+        },
+        {
+          "empId": 4469,
+          "empName": "Shreya Laad",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1729"
+        },
+        {
+          "empId": 719,
+          "empName": "Sunny Patel",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1730"
+        },
+        {
+          "empId": 120,
+          "empName": "Tanay Goyanka",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1731"
+        },
+        {
+          "empId": 110,
+          "empName": "Tej Guthal",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1732"
+        },
+        {
+          "empId": 4440,
+          "empName": "Varnika Tripathi",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1733"
+        },
+        {
+          "empId": 4438,
+          "empName": "Vinay Shrivastava",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1734"
+        },
+        {
+          "empId": 2818,
+          "empName": "Vinita.. Singh",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1735"
+        },
+        {
+          "empId": 4456,
+          "empName": "Vipul Singh",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1736"
+        },
+        {
+          "empId": 3939,
+          "empName": "vishwanath anand",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1737"
+        },
+        {
+          "empId": 2947,
+          "empName": "Yash Jain",
+          "empTitle": null,
+          "isLocationManager": false,
+          "sequence": 0,
+          "$$hashKey": "object:1738"
+        }
+      ],
+      "$$hashKey": "object:1654"
+    }
+  ],
+  "empTitles": [],
+  "employeeDetails": [],
+  "employeeScheduleDate": "Mar 12, 2024",
+  "assessmentScheduleDate": "Mar 14, 2024"
+}
