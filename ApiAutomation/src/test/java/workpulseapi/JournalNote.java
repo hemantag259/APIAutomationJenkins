@@ -28,7 +28,8 @@ public class JournalNote extends ExtentReport{
 		String name = new Object(){}.getClass().getEnclosingMethod().getName();
 		extent = extentreport.createTest(name);
 		Random r = new Random();
-        String notemessage = "Note created by Automation";
+		int amount = r.nextInt(10,1000);
+        String notemessage = "Note created by Automation_" + amount ;
         String AccessToken = BearerToken.generateToken();
 		byte[] b = Files.readAllBytes(Paths.get("Models","AddNote.json"));
 		
@@ -52,7 +53,7 @@ public class JournalNote extends ExtentReport{
 	      id = jsonpath.getString("id");
 	      System.out.println("Note Id: " + id);  
 	      extent.log(Status.INFO, "Note generated with id as " + id);
-	      
+	      extent.log(Status.INFO, "Note generated withe description as " +notemessage);   
 	}
 
 }

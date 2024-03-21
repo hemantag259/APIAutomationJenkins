@@ -7,8 +7,8 @@
         <methods>
           <include name="reportGenerate"/>
           <include name="reportflush"/>
-          <include name="getResult"/>
           <include name="updatebooktaskwithschedule"/>
+          <include name="getResult"/>
         </methods>
       </class> <!-- workpulseapi.AddBookTask -->
     </classes>

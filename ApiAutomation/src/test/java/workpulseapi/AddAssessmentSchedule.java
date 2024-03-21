@@ -49,7 +49,7 @@ public class AddAssessmentSchedule extends ExtentReport{
 	    		  .then()
 	    		  .statusCode(200)
 	    		  .log().all().extract().response();
-	      
+	      extent.log(Status.INFO, "Assessement scheduled successfully having schedule name as " +Schedulename);
 	      
 	}
 

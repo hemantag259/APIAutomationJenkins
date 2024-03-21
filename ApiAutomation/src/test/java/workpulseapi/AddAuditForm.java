@@ -98,7 +98,7 @@ public class AddAuditForm extends ExtentReport{
 	    		  .statusCode(200)
 	    		  .log().all().extract().response();
 	      
-	      extent.log(Status.INFO, "Question added successfully to Audit");
+	      extent.log(Status.INFO, "Question added successfully to Audit with name as " +formname);
 	      
 	}
 	
@@ -130,7 +130,7 @@ public class AddAuditForm extends ExtentReport{
 	    		  .then()
 	    		  .statusCode(200)
 	    		  .log().all().extract().response();
-	      extent.log(Status.INFO, "Location assigned successfully to Audit");
+	      extent.log(Status.INFO, "Location assigned successfully to Audit with name as" +formname);
 	    
 	      
 	}
@@ -178,7 +178,7 @@ public class AddAuditForm extends ExtentReport{
 	    		  .then()
 	    		  .statusCode(200)
 	    		  .log().all().extract().response();
-	      extent.log(Status.INFO, "Audit Form Submitted successfully");
+	      extent.log(Status.INFO, "Audit Form " +formname+" Submitted successfully");
 	    
 	      
 	}
@@ -217,7 +217,7 @@ public class AddAuditForm extends ExtentReport{
 	    		  .then()
 	    		  .statusCode(200)
 	    		  .log().all().extract().response();
-	      extent.log(Status.INFO, "Audit Form Inactivated successfully");
+	      extent.log(Status.INFO, "Audit Form " +formname+ " Inactivated successfully");
 	    
 	      
 	}

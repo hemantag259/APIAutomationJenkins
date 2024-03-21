@@ -1,36 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-11T19:50:11 IST" name="Default suite" finished-at="2024-03-11T19:50:59 IST" duration-ms="47599">
+  <suite started-at="2024-03-21T16:54:16 IST" name="Default suite" finished-at="2024-03-21T16:54:26 IST" duration-ms="9893">
     <groups>
     </groups>
-    <test started-at="2024-03-11T19:50:11 IST" name="Default test" finished-at="2024-03-11T19:50:59 IST" duration-ms="47599">
-      <class name="workpulseapi.AddAssessmentSchedule">
-        <test-method is-config="true" signature="reportGenerate()[pri:0, instance:workpulseapi.AddAssessmentSchedule@1bb266b3]" started-at="2024-03-11T19:50:11 IST" name="reportGenerate" finished-at="2024-03-11T19:50:11 IST" duration-ms="296" status="PASS">
+    <test started-at="2024-03-21T16:54:16 IST" name="Default test" finished-at="2024-03-21T16:54:26 IST" duration-ms="9893">
+      <class name="workpulseapi.AddBookTask">
+        <test-method is-config="true" signature="reportGenerate()[pri:0, instance:workpulseapi.AddBookTask@2beee7ff]" started-at="2024-03-21T16:54:16 IST" name="reportGenerate" finished-at="2024-03-21T16:54:16 IST" duration-ms="246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportGenerate -->
-        <test-method signature="addassessmentschedule()[pri:2, instance:workpulseapi.AddAssessmentSchedule@1bb266b3]" started-at="2024-03-11T19:50:11 IST" name="addassessmentschedule" finished-at="2024-03-11T19:50:59 IST" duration-ms="47555" status="PASS">
+        <test-method signature="addbooktask()[pri:2, instance:workpulseapi.AddBookTask@2beee7ff]" started-at="2024-03-21T16:54:17 IST" name="addbooktask" finished-at="2024-03-21T16:54:22 IST" duration-ms="5278" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addassessmentschedule -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:workpulseapi.AddAssessmentSchedule@1bb266b3]" started-at="2024-03-11T19:50:59 IST" name="getResult" finished-at="2024-03-11T19:50:59 IST" duration-ms="6" status="PASS">
+        </test-method> <!-- addbooktask -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:workpulseapi.AddBookTask@2beee7ff]" started-at="2024-03-21T16:54:22 IST" name="getResult" finished-at="2024-03-21T16:54:22 IST" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addassessmentschedule status=SUCCESS method=AddAssessmentSchedule.addassessmentschedule()[pri:2, instance:workpulseapi.AddAssessmentSchedule@1bb266b3] output={null}]]]>
+                <![CDATA[[TestResult name=addbooktask status=SUCCESS method=AddBookTask.addbooktask()[pri:2, instance:workpulseapi.AddBookTask@2beee7ff] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="reportflush()[pri:0, instance:workpulseapi.AddAssessmentSchedule@1bb266b3]" started-at="2024-03-11T19:50:59 IST" name="reportflush" finished-at="2024-03-11T19:50:59 IST" duration-ms="252" status="PASS">
+        <test-method signature="addlocation()[pri:3, instance:workpulseapi.AddBookTask@2beee7ff]" started-at="2024-03-21T16:54:22 IST" name="addlocation" finished-at="2024-03-21T16:54:24 IST" duration-ms="1907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addlocation -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:workpulseapi.AddBookTask@2beee7ff]" started-at="2024-03-21T16:54:24 IST" name="getResult" finished-at="2024-03-21T16:54:24 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addlocation status=SUCCESS method=AddBookTask.addlocation()[pri:3, instance:workpulseapi.AddBookTask@2beee7ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="updatebooktaskwithschedule()[pri:4, instance:workpulseapi.AddBookTask@2beee7ff]" started-at="2024-03-21T16:54:24 IST" name="updatebooktaskwithschedule" finished-at="2024-03-21T16:54:26 IST" duration-ms="2653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatebooktaskwithschedule -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:workpulseapi.AddBookTask@2beee7ff]" started-at="2024-03-21T16:54:26 IST" name="getResult" finished-at="2024-03-21T16:54:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updatebooktaskwithschedule status=SUCCESS method=AddBookTask.updatebooktaskwithschedule()[pri:4, instance:workpulseapi.AddBookTask@2beee7ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="reportflush()[pri:0, instance:workpulseapi.AddBookTask@2beee7ff]" started-at="2024-03-21T16:54:26 IST" name="reportflush" finished-at="2024-03-21T16:54:27 IST" duration-ms="257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportflush -->
-      </class> <!-- workpulseapi.AddAssessmentSchedule -->
+      </class> <!-- workpulseapi.AddBookTask -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
