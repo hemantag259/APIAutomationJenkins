@@ -130,7 +130,7 @@ public class AddAuditForm extends ExtentReport{
 	    		  .then()
 	    		  .statusCode(200)
 	    		  .log().all().extract().response();
-	      extent.log(Status.INFO, "Location assigned successfully to Audit with name as" +formname);
+	      extent.log(Status.INFO, "Location assigned successfully to Audit with name as " +formname);
 	    
 	      
 	}
